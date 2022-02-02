@@ -46,4 +46,9 @@ public class Montres {
         else {this.min++;
         }
     }
+
+    @Override
+    Montres clone(){
+        return this;
+    }
 }
